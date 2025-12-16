@@ -6,17 +6,23 @@ export default function Home() {
       className="flex min-h-screen w-full flex-col items-center bg-white"
       style={{ padding: "60px 0px 0px 0px" }}
     >
-      <Image
-        src="/logo.svg"
-        alt="TECHSYMBAL logo"
-        width={405}
-        height={120}
-        className="h-auto w-auto object-contain"
-        style={{
-          maxWidth: "calc(100vw - 120px)", // shrink if space is limited
-        }}
-        priority
-      />
+      <a
+        href="https://techsynbal.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Image
+          src="/logo.svg"
+          alt="TECHSYMBAL logo"
+          width={405}
+          height={120}
+          className="h-auto w-auto object-contain"
+          style={{
+            maxWidth: "calc(100vw - 120px)", // shrink if space is limited
+          }}
+          priority
+        />
+      </a>
       <Image
         src="/techsynbal.png"
         alt="TECHSYMBAL"
